@@ -8,7 +8,7 @@ HUGGINGFACEHUB_API_TOKEN = st.secrets["HUGGINGFACEHUB_API_TOKEN"]
 
 # Hugging Face client
 client = InferenceClient(
-    model="tiiuae/falcon-7b-instruct",
+    model="mistralai/Mistral-7B-Instruct-v0.1",
     token=HUGGINGFACEHUB_API_TOKEN
 )
 
